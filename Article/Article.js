@@ -131,6 +131,9 @@ function buildArticle ({title, date, firstParagraph, secondParagraph, thirdParag
       buildExpButton()
    ];
 
+   //add properties
+   article.classList.add("article");
+
    //attach children
    children.forEach(child => {
       if (Array.isArray(child)) {
@@ -181,9 +184,10 @@ function buildExpButton () {
    //<span class='expandButton'></span>
    const button = document.createElement("span");
    button.classList.add("expandButton");
+   button.textContent = "^^^";
 
    button.addEventListener("click", event => {
-      event.currentTarget.parent.classList.toggle("article-open");
+      event.currentTarget.parentElement.classList.toggle("article-open");
    });
 
    return button;
