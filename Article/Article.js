@@ -2,6 +2,28 @@
 /* Look over this data, then proceed to line 91*/
 const data = [
    {
+      title: 'Test 01 - Adding new item to the top',
+      date: 'Aug 28, 2019',
+      firstParagraph: `Lorem ipsum dolor sit amet, mei no ponderum dissentiet, tale assueverit ut pri. Nec ex error harum ridens. Integre fabulas 
+         pri id. Mel viderer dolorem convenire et, pri ut ipsum virtute erroribus, percipit antiopam definitiones te cum. Ut vivendo recusabo 
+         iracundia his. Cetero persius maiestatis pro cu, omnes nemore meliore quo ne, mei ex prompta lucilius. Illum tantas intellegebat ius at, 
+         per ea vidisse mediocrem. Porro aperiri alterum vis at, in idque vocibus sed, facer prompta mei eu. Ea vix modus graecis, saperet 
+         appellantur mei ne, nec at dolorem officiis.`,
+
+      secondParagraph: `Et vero scripserit sit, an pro referrentur comprehensam. Quo ei ponderum indoctum, ei dolores evertitur qui, has saperet 
+         deleniti ei. In ponderum adipisci erroribus ius, eu nullam appareat eam. Sed munere corpora concludaturque ei, nam an laudem perfecto 
+         conclusionemque. Nec te augue saperet platonem. His inermis veritus neglegentur et, purto convenire te usu. Ea mea detracto tincidunt 
+         posidonium. Utroque mediocritatem ea eam, sea soleat alterum eu, nisl atomorum percipitur vis eu. Illud soluta vim eu, ex augue 
+         disputationi mel.`,
+
+      thirdParagraph: `Accumsan detracto intellegebat ad usu, ne unum falli reprehendunt eos, eu sea modus aliquid volutpat. Ad pro docendi 
+         epicurei vivendum, vis id elit quodsi, ex enim nemore has. Usu in tation latine. Qui no vide vocent torquatos, te mea tota eleifend. 
+         Epicuri fabellas ut his, eam dico illum ne, vix tale vidisse partiendo ei. Usu cu iracundia deseruisse scriptorem, pro possim volutpat 
+         ne. Eum officiis gloriatur id, in has dictas deleniti noluisse, ea eos viris nullam omittantur. Vim invidunt patrioque mnesarchum ex, 
+         sit eu putent possit. Sea euismod persequeris ut, dictas pertinacia nec ea, nec facer oratio aeterno in. Sea sale legendos cu, wisi 
+         propriae ius no. His ei agam deleniti.`
+   },
+   {
       title: 'Lambda School Students: "We\'re the best!"',
       date: 'Nov 5th, 2018',
       firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
@@ -41,6 +63,28 @@ const data = [
         Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven 
         roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot 
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
+   },
+   {
+      title: 'Test 02 - Adding new item in the middle',
+      date: 'June 12, 2019',
+      firstParagraph: `Lorem ipsum dolor sit amet, mei no ponderum dissentiet, tale assueverit ut pri. Nec ex error harum ridens. Integre fabulas 
+         pri id. Mel viderer dolorem convenire et, pri ut ipsum virtute erroribus, percipit antiopam definitiones te cum. Ut vivendo recusabo 
+         iracundia his. Cetero persius maiestatis pro cu, omnes nemore meliore quo ne, mei ex prompta lucilius. Illum tantas intellegebat ius at, 
+         per ea vidisse mediocrem. Porro aperiri alterum vis at, in idque vocibus sed, facer prompta mei eu. Ea vix modus graecis, saperet 
+         appellantur mei ne, nec at dolorem officiis.`,
+
+      secondParagraph: `Et vero scripserit sit, an pro referrentur comprehensam. Quo ei ponderum indoctum, ei dolores evertitur qui, has saperet 
+         deleniti ei. In ponderum adipisci erroribus ius, eu nullam appareat eam. Sed munere corpora concludaturque ei, nam an laudem perfecto 
+         conclusionemque. Nec te augue saperet platonem. His inermis veritus neglegentur et, purto convenire te usu. Ea mea detracto tincidunt 
+         posidonium. Utroque mediocritatem ea eam, sea soleat alterum eu, nisl atomorum percipitur vis eu. Illud soluta vim eu, ex augue 
+         disputationi mel.`,
+
+      thirdParagraph: `Accumsan detracto intellegebat ad usu, ne unum falli reprehendunt eos, eu sea modus aliquid volutpat. Ad pro docendi 
+         epicurei vivendum, vis id elit quodsi, ex enim nemore has. Usu in tation latine. Qui no vide vocent torquatos, te mea tota eleifend. 
+         Epicuri fabellas ut his, eam dico illum ne, vix tale vidisse partiendo ei. Usu cu iracundia deseruisse scriptorem, pro possim volutpat 
+         ne. Eum officiis gloriatur id, in has dictas deleniti noluisse, ea eos viris nullam omittantur. Vim invidunt patrioque mnesarchum ex, 
+         sit eu putent possit. Sea euismod persequeris ut, dictas pertinacia nec ea, nec facer oratio aeterno in. Sea sale legendos cu, wisi 
+         propriae ius no. His ei agam deleniti.`
    },
    {
       title: 'React vs Angular vs Vue',
@@ -85,6 +129,28 @@ const data = [
       thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+   },
+   {
+      title: 'Test 03 - Adding new item to the bottom',
+      date: 'Mar 3, 2019',
+      firstParagraph: `Lorem ipsum dolor sit amet, mei no ponderum dissentiet, tale assueverit ut pri. Nec ex error harum ridens. Integre fabulas 
+         pri id. Mel viderer dolorem convenire et, pri ut ipsum virtute erroribus, percipit antiopam definitiones te cum. Ut vivendo recusabo 
+         iracundia his. Cetero persius maiestatis pro cu, omnes nemore meliore quo ne, mei ex prompta lucilius. Illum tantas intellegebat ius at, 
+         per ea vidisse mediocrem. Porro aperiri alterum vis at, in idque vocibus sed, facer prompta mei eu. Ea vix modus graecis, saperet 
+         appellantur mei ne, nec at dolorem officiis.`,
+
+      secondParagraph: `Et vero scripserit sit, an pro referrentur comprehensam. Quo ei ponderum indoctum, ei dolores evertitur qui, has saperet 
+         deleniti ei. In ponderum adipisci erroribus ius, eu nullam appareat eam. Sed munere corpora concludaturque ei, nam an laudem perfecto 
+         conclusionemque. Nec te augue saperet platonem. His inermis veritus neglegentur et, purto convenire te usu. Ea mea detracto tincidunt 
+         posidonium. Utroque mediocritatem ea eam, sea soleat alterum eu, nisl atomorum percipitur vis eu. Illud soluta vim eu, ex augue 
+         disputationi mel.`,
+
+      thirdParagraph: `Accumsan detracto intellegebat ad usu, ne unum falli reprehendunt eos, eu sea modus aliquid volutpat. Ad pro docendi 
+         epicurei vivendum, vis id elit quodsi, ex enim nemore has. Usu in tation latine. Qui no vide vocent torquatos, te mea tota eleifend. 
+         Epicuri fabellas ut his, eam dico illum ne, vix tale vidisse partiendo ei. Usu cu iracundia deseruisse scriptorem, pro possim volutpat 
+         ne. Eum officiis gloriatur id, in has dictas deleniti noluisse, ea eos viris nullam omittantur. Vim invidunt patrioque mnesarchum ex, 
+         sit eu putent possit. Sea euismod persequeris ut, dictas pertinacia nec ea, nec facer oratio aeterno in. Sea sale legendos cu, wisi 
+         propriae ius no. His ei agam deleniti.`
    }
 ];
 
@@ -112,16 +178,7 @@ const data = [
    Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
-function buildArticle ({title, date, firstParagraph, secondParagraph, thirdParagraph}) {
-   // <div class="article">
-   //    <h2>{title of the article}</h2>
-   //    <p class="date">{date of the article}</p>
-
-   //    {three separate paragraph elements}
-
-   //    <span class='expandButton'></span>
-   // </div>
-
+function buildArticle({ title, date, firstParagraph, secondParagraph, thirdParagraph }) {
    //create elements
    const article = document.createElement("div");
    const children = [
@@ -146,11 +203,11 @@ function buildArticle ({title, date, firstParagraph, secondParagraph, thirdParag
    });
 
    //return final component
-   console.log(article);
+   // console.log(article);
    return article;
 }
 
-function buildTitle (text) {
+function buildTitle(text) {
    // <h2>{title of the article}</h2>
    const title = document.createElement("h2");
    title.textContent = text;
@@ -158,7 +215,7 @@ function buildTitle (text) {
    return title;
 }
 
-function buildDate (info) {
+function buildDate(info) {
    // <p class="date">{date of the article}</p>
    const date = document.createElement("p");
    date.classList.add("date");
@@ -167,7 +224,7 @@ function buildDate (info) {
    return date;
 }
 
-function buildContent (info) {
+function buildContent(info) {
    // {three separate paragraph elements}
    const content = info.map(data => {
       const paragraph = document.createElement("p");
@@ -180,7 +237,7 @@ function buildContent (info) {
    return content;
 }
 
-function buildExpButton () {
+function buildExpButton() {
    //<span class='expandButton'></span>
    const button = document.createElement("span");
    button.classList.add("expandButton");
