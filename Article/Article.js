@@ -112,3 +112,79 @@ const data = [
    Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+function buildArticle ({title, date, firstParagraph, secondParagraph, thirdParagraph}) {
+   // <div class="article">
+   //    <h2>{title of the article}</h2>
+   //    <p class="date">{date of the article}</p>
+
+   //    {three separate paragraph elements}
+
+   //    <span class='expandButton'></span>
+   // </div>
+
+   //create elements
+   const article = document.createElement("div");
+   const children = [
+      buildTitle(title),
+      buildDate(date),
+      buildContent([firstParagraph, secondParagraph, thirdParagraph]),
+      buildExpButton()
+   ];
+
+   //attach children
+   children.forEach(child => {
+      if (typeof child === "Array") {
+         child.forEach(item => {
+            article.appendChild(item);
+         });
+      } else {
+         article.appendChild(item);
+      }
+   });
+
+   //return final component
+   console.log(article);
+   return article;
+}
+
+function buildTitle (text) {
+   // <h2>{title of the article}</h2>
+   const title = document.createElement("h2");
+   title.textContent = text;
+
+   return title;
+}
+
+function buildDate (info) {
+   // <p class="date">{date of the article}</p>
+   const date = document.createElement("p");
+   date.classList.add("date");
+   date.textContent = info;
+
+   return date;
+}
+
+function buildContent (info) {
+   // {three separate paragraph elements}
+   const content = info.map(data => {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = data;
+
+      return paragraph;
+   });
+
+
+   return content;
+}
+
+function buildExpButton () {
+   //<span class='expandButton'></span>
+   const button = document.createElement("span");
+   button.classList.add("expandButton");
+
+   button.addEventListener(event => {
+      event.currentTarget.parent.classList.toggle("article-open");
+   });
+
+   return button;
+}
