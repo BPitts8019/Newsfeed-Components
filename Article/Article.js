@@ -133,12 +133,12 @@ function buildArticle ({title, date, firstParagraph, secondParagraph, thirdParag
 
    //attach children
    children.forEach(child => {
-      if (typeof child === "Array") {
+      if (Array.isArray(child)) {
          child.forEach(item => {
             article.appendChild(item);
          });
       } else {
-         article.appendChild(item);
+         article.appendChild(child);
       }
    });
 
@@ -182,9 +182,17 @@ function buildExpButton () {
    const button = document.createElement("span");
    button.classList.add("expandButton");
 
-   button.addEventListener(event => {
+   button.addEventListener("click", event => {
       event.currentTarget.parent.classList.toggle("article-open");
    });
 
    return button;
 }
+
+//create Articles
+(() => {
+   const articles = document.querySelector(".articles");
+   const articleComponents = data.map(article => buildArticle(article));
+
+   articles.append(...articleComponents);
+})();
