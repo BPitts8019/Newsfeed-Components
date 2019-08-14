@@ -252,8 +252,8 @@ function buildExpButton() {
 
 //create Articles
 (() => {
-   const articles = document.querySelector(".articles");
-   const articleComponents = data.map(article => buildArticle(article));
+   const articlesHtml = document.querySelector(".articles");
+   const articles = data.map(article => buildArticle(article));
 
-   articles.append(...articleComponents);
+   articlesHtml.append(...articles);
 })();
