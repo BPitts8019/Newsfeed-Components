@@ -72,7 +72,7 @@ function buildList (data) {
    document.body.appendChild(menu);
    
    //add event handler to menu button
-   document.querySelector("menu-button").addEventListener("click", event => {
+   document.querySelector(".menu-button").addEventListener("click", event => {
       menu.classList.toggle("menu--open");
    });
 })();
